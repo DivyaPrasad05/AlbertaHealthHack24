@@ -1,15 +1,17 @@
+import NavBar from "../components/NavBar";
+import CharacterSelectionComponent from "../components/CharacterSelectionComponent";
 import Chatbot from "../Components/Chatbot";
 
 const Home = () => {
     return (
-        <p>
-            <div className="App">
-                <h1 className="text-3xl font-bold underline text-green-500">
-                    Hello world!
-                </h1>
+        <>
+            <main className="h-screen">
+                <NavBar />
+                <CharacterSelectionComponent />
                 <Chatbot/>
-            </div>
-        </p>
+            </main>
+
+        </>
     );
 }
 export default Home;
