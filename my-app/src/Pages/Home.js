@@ -1,6 +1,6 @@
 import NavBar from "../components/NavBar";
 import CharacterSelectionComponent from "../components/CharacterSelectionComponent";
-import Chatbot from "../Components/Chatbot";
+import Chatbot from "../components/Chatbot";
 
 const Home = () => {
     return (
