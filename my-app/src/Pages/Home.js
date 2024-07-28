@@ -4,11 +4,10 @@ import CharacterSelectionComponent from "../components/CharacterSelectionCompone
 const Home = () => {
     return (
         <>
-        <div className="z-10 h-screen">
-
-            <NavBar />
-            <CharacterSelectionComponent />
-            </div>
+            <main className="h-screen">
+                <NavBar />
+                <CharacterSelectionComponent />
+            </main>
 
         </>
     );

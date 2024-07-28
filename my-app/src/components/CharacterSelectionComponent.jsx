@@ -2,8 +2,8 @@ import React from 'react';
 
 const CharacterSelectionComponent = () => {
     return (
-        <div class="flex flex-col items-center justify-center min-h-screen">
-            <div class="flex items-center justify-center">
+        <div class="flex flex-col items-center justify-center">
+            <div class="flex items-center justify-center mt-5">
                 <h1 class="font-Baloo2 text-blue-words font-bold py-2 px-4 rounded text-4xl">Choose your buddy</h1>
             </div>
 
