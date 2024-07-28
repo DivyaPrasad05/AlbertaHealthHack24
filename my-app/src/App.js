@@ -1,4 +1,3 @@
-import './App.css';
 import CharacterSelectionComponent from './components/CharacterSelectionComponent';
 import Home from './Pages/Home';
 import { Routes, Route } from 'react-router-dom';
