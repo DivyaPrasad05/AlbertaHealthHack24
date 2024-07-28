@@ -11,7 +11,7 @@ const Question = () => {
         alert(userMessage);
     }
     return (
-        <div className="" style={{ backgroundImage: 'url(/QuestionPageImage.png)' }}>
+        <div className="min-h-screen" style={{ backgroundImage: 'url(/QuestionPageImage.png) '  }}>
             <NavBar />
             <div className="mt-5">
                 <div className="relative ml-10 w-5/6 sm:max-w-xl sm:ml-80 ">
