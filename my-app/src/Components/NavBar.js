@@ -3,9 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
     return (
-        <nav className="p-4 h-20 flex justify-between items-center" style={{ backgroundColor: '#257CBB' }}>
+        <nav className="p-4 h-20 flex justify-between items-center" style={{ backgroundColor: '#257CBB', backgroundImage: 'url(/starBackground.png)' }}>
             {/* Left section: Project logo and Streak */}
-
             <div className="flex items-center">
                 <NavLink to="/">
                     <img src="/myBuddyLogo.png" alt="MyBuddy Logo" className="h-12 md:h-20" />
@@ -25,7 +24,7 @@ const NavBar = () => {
 
             {/* Right section: Profile pic */}
 
-            <div>
+            <div className='mr-6'>
                 <NavLink to="/">
                     <img src="/profilePic.png" alt="User Avatar" className="h-12 rounded-full" />
                 </NavLink>
