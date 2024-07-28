@@ -1,11 +1,15 @@
 import React from 'react';
+import UserProfileComponent from '../components/UserProfileComponent';
+import UserStreakComponent from '../components/UserStreakComponent';
+import NavBar from '../components/NavBar';
 
 const ProfilePage = () => {
     return (
-        <div>
-            <h1>Profile Page</h1>
-            <img src="/images/Frame_3.png" alt="Po" class="my-4 pb-8" />
-        </div>
+        <>
+            <NavBar />
+            <UserProfileComponent />
+            <UserStreakComponent />
+        </>
     );
 };
 
