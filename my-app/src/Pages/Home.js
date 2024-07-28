@@ -1,9 +1,14 @@
+import NavBar from "../components/NavBar";
 import CharacterSelectionComponent from "../components/CharacterSelectionComponent";
 
 const Home = () => {
     return (
         <>
-            <CharacterSelectionComponent />
+            <main className="h-screen">
+                <NavBar />
+                <CharacterSelectionComponent />
+            </main>
+
         </>
     );
 }
