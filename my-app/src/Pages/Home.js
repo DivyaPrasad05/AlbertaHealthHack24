@@ -1,5 +1,6 @@
 import NavBar from "../components/NavBar";
 import CharacterSelectionComponent from "../components/CharacterSelectionComponent";
+import Chatbot from "../components/Chatbot";
 
 const Home = () => {
     return (
@@ -7,6 +8,7 @@ const Home = () => {
             <main className="h-screen">
                 <NavBar />
                 <CharacterSelectionComponent />
+                <Chatbot/>
             </main>
 
         </>
