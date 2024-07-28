@@ -1,6 +1,6 @@
-import NavBar from "../components/NavBar";
-import CharacterSelectionComponent from "../components/CharacterSelectionComponent";
-import Chatbot from "../components/Chatbot";
+import NavBar from "../Components/NavBar.js";
+import CharacterSelectionComponent from "../Components/CharacterSelectionComponent.jsx"
+import Chatbot from "../Components/Chatbot.js";
 
 const Home = () => {
     return (

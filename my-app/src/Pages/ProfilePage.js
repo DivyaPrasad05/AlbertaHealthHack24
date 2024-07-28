@@ -1,7 +1,7 @@
 import React from 'react';
-import UserProfileComponent from '../components/UserProfileComponent';
-import UserStreakComponent from '../components/UserStreakComponent';
-import NavBar from '../components/NavBar';
+import UserProfileComponent from '../Components/UserProfileComponent.jsx';
+import UserStreakComponent from '../Components/UserStreakComponent.jsx';
+import NavBar from '../Components/NavBar.js';
 
 const ProfilePage = () => {
     return (

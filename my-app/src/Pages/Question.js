@@ -1,5 +1,5 @@
 import { useState } from "react";
-import NavBar from "../components/NavBar";
+import NavBar from "../Components/NavBar.js";
 import { FaMicrophone, FaArrowRight } from 'react-icons/fa';
 
 const Question = () => {
