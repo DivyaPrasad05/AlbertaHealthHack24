@@ -8,7 +8,6 @@ const Home = () => {
             <main className="h-screen">
                 <NavBar />
                 <CharacterSelectionComponent />
-                <Chatbot/>
             </main>
 
         </>
