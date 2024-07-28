@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import OpenAI from 'openai';
 
 const openai = new OpenAI({
-  apiKey: process.env.REACT_APP_OPENAI_API_KEY,
-  organization: process.env.REACT_APP_ORG_ID,
+  apiKey: "sk-proj-Zmas6fvyVPp658azBU0aT3BlbkFJtLuZ05E83mAyFQChAFh9",
+  organization: "org-Biv2kknXHwCsolQGBYQhEzab",
   dangerouslyAllowBrowser: true
 });
 
