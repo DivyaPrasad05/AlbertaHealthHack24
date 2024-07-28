@@ -28,7 +28,7 @@ const NavBar = () => {
             {/* Right section: Profile pic */}
 
             <div className=''>
-                <NavLink to="/">
+                <NavLink to="/profile">
                     <img src="/profilePic.png" alt="User Avatar" className="h-12 rounded-full" />
                 </NavLink>
             </div>
