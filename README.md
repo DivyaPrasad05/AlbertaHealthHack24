@@ -1,6 +1,6 @@
 
 # MyBuddy
-
+https://devpost.com/software/mybuddy-15o0uy
 ## Problem
 
 We chose to address the challenge of helping children undergoing extensive rehabilitation. Kids often feel uncomfortable communicating their feelings, thoughts, and pain with trusted adults, which can impede their treatment as professionals may not accurately address the root problem. This ultimately prolongs their treatment process.
